@@ -138,7 +138,7 @@ class Initiate extends javax.swing.JFrame implements Name {
         panelLogin = new javax.swing.JPanel();
         txtlogin = new javax.swing.JTextField();
         ButtonAccept = new javax.swing.JButton();
-        jLabel34 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         panelInstruction = new javax.swing.JPanel();
         btnExitI = new javax.swing.JButton();
         jLabel33 = new javax.swing.JLabel();
@@ -510,9 +510,11 @@ class Initiate extends javax.swing.JFrame implements Name {
         panelLogin.add(ButtonAccept);
         ButtonAccept.setBounds(320, 430, 170, 50);
 
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/Login form.png"))); // NOI18N
-        panelLogin.add(jLabel34);
-        jLabel34.setBounds(0, 0, 800, 600);
+        jLabel5.setFont(new java.awt.Font("Roboto Slab", 0, 36)); // NOI18N
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("YOUR NAME");
+        panelLogin.add(jLabel5);
+        jLabel5.setBounds(280, 320, 240, 40);
 
         getContentPane().add(panelLogin, "card36");
 
@@ -4580,10 +4582,10 @@ class Initiate extends javax.swing.JFrame implements Name {
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
